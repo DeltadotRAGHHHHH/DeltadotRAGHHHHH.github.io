@@ -24,6 +24,7 @@ li {
 
 .flex-container {
     display: flex;
+    
   }
   
   /* this selector selects all divs inside of .flex-container */
