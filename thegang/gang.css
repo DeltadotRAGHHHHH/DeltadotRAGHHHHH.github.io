@@ -6,6 +6,7 @@ display: flex;
 justify-content: center; /* Center flex items horizontally */
 align-items: auto; /* Center flex items vertically */
 height: auto; /* Specify height */
+flex-wrap: wrap;
 }
 .flex-item {
 flex-basis: 10%;
