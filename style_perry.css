@@ -42,5 +42,6 @@ a:hover {
     height: auto;
     width: auto;
   }
-  
+a:any-link{color: #5a2934;
+font-family:Arial, Helvetica, sans-serif;}
 
