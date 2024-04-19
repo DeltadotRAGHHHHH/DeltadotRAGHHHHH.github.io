@@ -21,7 +21,6 @@ li {
     font-family: Arial, Helvetica, sans-serif;
 
 }
-
 .flex-container {
     display: flex;
   }
@@ -33,6 +32,9 @@ li {
     height: 100px;
     width: 100px;
     flex: 1 1 auto;
+    position: relative;
+    right: 100px;
+    /* left: 315px;  */
   }
   
   .flex-container .two {
@@ -50,3 +52,9 @@ li {
 }
   blockquote{color: #ffffff;}
   
+  .rawr {
+    position: fixed;
+    top: 2px;
+    left: 900px;
+    transform: translate(-50%, -50%);
+  }
