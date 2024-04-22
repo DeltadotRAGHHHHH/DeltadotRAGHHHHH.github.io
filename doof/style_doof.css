@@ -11,7 +11,7 @@ p, p2, li{
     color: #ffffff;
 }
 body {
-    background-color: #000000;
+  background: linear-gradient(45deg, rgb(0, 0, 0),rgb(0,0,0), #556423);
   }
 li:hover {background-color: #686868;
     
@@ -33,8 +33,7 @@ li {
     width: 100px;
     flex: 1 1 auto;
     position: relative;
-    right: 100px;
-    /* left: 315px;  */
+    left: 100px; 
   }
   
   .flex-container .two {
