@@ -5,6 +5,7 @@ h1{
     color: #ffffff;
     font-family: cursive;
 }
+
 p, p2, li{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -49,11 +50,17 @@ li {
   a:any-link{color:#546026;
     font-family:Arial, Helvetica, sans-serif;   
 }
-  blockquote{color: #ffffff;}
+.input{color: #ffffff;}
+
+  blockquote{color: #ffffff;
+    font-size: clamp(5px, 5vw, 25px);
+
+  }
   
   .rawr {
     position: fixed;
     top: 2px;
-    left: 900px;
+    right: 50px;
     transform: translate(-50%, -50%);
+    width: max(50px, -50vw);
   }
