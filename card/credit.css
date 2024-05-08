@@ -1,0 +1,18 @@
+body {
+    background-color: #444443;
+  }
+
+input {
+    border: 2px solid #000;
+    margin-bottom: 15px;
+    /* padding: 5px; */
+    border-radius: 5px;
+  }
+  
+  input:invalid {
+    border-color: #f33a2d;
+  }
+  
+  input:valid {
+    border-color: #57bd8a;
+  }

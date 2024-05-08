@@ -3,27 +3,38 @@
   <head>
  
     <title>fraud</title>
-    <link rel="stylesheet" href="crdit.css">
+    <link rel="stylesheet" href="credit.css">
   </head>
   <body>
     <main>
         <h1>I need your credit ca- i mean, access code!</h1>  
     </main>
-    <form action="example.com/path" method="post">
+    <form action="../lair/lair.html" method="post">
         <div><label for="first_name">First Name:</label>
-        <input type="text" id="first_name" placeholder="Heinz...">
+        <input type="text" id="first_name" placeholder="Heinz..." maxlength="50" required>
     </div><div>
-        <label for="first_name">Last Name:</label>
-        <input type="text" id="first_name" placeholder="Doofenshmirtz...">
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" placeholder="Doofenshmirtz..."maxlength="50" required>
         </div>
+        <div><label for="mail">Email: </label>
+          <input type="email" id="first_name" placeholder="Doofenshmirtz@Evilmail.com" maxlength="50" size="30" required> </div>
         <p>&#160;</p>
         <div>
         <div><label for="access code">Access Code:</label>
-            <input type="text" id="first_name" placeholder="0000 0000 0000 0001">
-        </div> <div> <div><label for="first_name">Exp Date:</label>
-            <input type="text" id="first_name" placeholder="08/17"></div>
-
+            <input type="text" id="creditnumber" placeholder="0000 0000 0000 0000" minlength="16" maxlength="19" size="19" required>
+        </div> <div> <div><label for="exp">Exp Date:</label>
+            <input type="text" id="exp" placeholder="08/17" minlength="5" maxlength="5" size="5" required></div>
+        <div>
+        <label for="pin">Security Pin:</label>
+          <input type="text" id="pin" placeholder="000" minlength="3" maxlength="3" size="3"required>
+        </div>
+        <div><label for="zip">Area Code:</label></div>
+          <input type="text" id="zip_code" name="zip_code" pattern="(\d{5}([\-]\d{4})?)" required>
+        <p>&#160;</p>
+        <button type="submit">Submit</button>
       </form>
+    <img src="https://media.npr.org/assets/img/2017/11/03/istock-532413706-6df293fc04405c2e3d4fdfaa1ec4aa1bf08d558d.jpg?s=1600&c=85&f=webp" width="750">
+      
       
   </body>
 </html>
