@@ -8,12 +8,32 @@
   /* this selector selects all divs inside of .flex-container */
   .flex-container div {
     background: #f9fafb;
-    border: 4px solid brown;
-    height: 100px;
+    /* border: 4px solid brown; */
+    height: auto;
     flex: 1 1 0%;
   }
   
   /* only div.two is selected here */
   .flex-container .two {
     flex: 2 1 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .flex-container .three {
+    height: 300px;
+    background: rgb(255, 0, 0);
+    display: flex;
+    
+    align-items: center; 
+    justify-content: center;
+  }
+  .flex-container .four {
+    background-color: aqua;
+    height: 300px;
+  }
+  .flex-container .five {
+    background-color: brown;
+    height: 300px;
   }
